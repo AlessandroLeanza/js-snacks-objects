@@ -9,7 +9,7 @@ Crea un nuovo array con la lista dei mammiferi.
 ]
  */
 
-console.log("JSnack 3");
+console.log("JSnackobject3");
 const animali = [
     {
         nome: "Elefante", famiglia: "Elephantidae", classe: "Mammiferi"
@@ -27,6 +27,7 @@ const animali = [
 const mammiferi = []
 for (let i = 0; i < animali.length; i++) {
     const animale = animali[i]
+    console.log(animale);
     if (animale.classe === "Mammiferi") {
         mammiferi.push(animale)
     }
